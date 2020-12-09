@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B4F13A8255D95AD0085A879 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4F13A7255D95AD0085A879 /* Response.swift */; };
 		8BB3D8FE254D6EFF00351B48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB3D8FD254D6EFF00351B48 /* AppDelegate.swift */; };
 		8BB3D900254D6EFF00351B48 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB3D8FF254D6EFF00351B48 /* SceneDelegate.swift */; };
 		8BB3D902254D6EFF00351B48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB3D901254D6EFF00351B48 /* ViewController.swift */; };
@@ -15,6 +16,9 @@
 		8BB3D90A254D6F0100351B48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BB3D908254D6F0100351B48 /* LaunchScreen.storyboard */; };
 		8BB3D915254D6F0100351B48 /* P011_YouTubeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB3D914254D6F0100351B48 /* P011_YouTubeAppTests.swift */; };
 		8BB3D920254D6F0100351B48 /* P011_YouTubeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB3D91F254D6F0100351B48 /* P011_YouTubeAppUITests.swift */; };
+		8BD6CB252553F7F700C19292 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD6CB242553F7F700C19292 /* Constants.swift */; };
+		8BD6CB2A2554016300C19292 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD6CB292554016300C19292 /* Video.swift */; };
+		8BD6CB2F2554026700C19292 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD6CB2E2554026700C19292 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B4F13A7255D95AD0085A879 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		8BB3D8FA254D6EFF00351B48 /* P011_YouTubeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = P011_YouTubeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BB3D8FD254D6EFF00351B48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BB3D8FF254D6EFF00351B48 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +54,9 @@
 		8BB3D91B254D6F0100351B48 /* P011_YouTubeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = P011_YouTubeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BB3D91F254D6F0100351B48 /* P011_YouTubeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P011_YouTubeAppUITests.swift; sourceTree = "<group>"; };
 		8BB3D921254D6F0100351B48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BD6CB242553F7F700C19292 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8BD6CB292554016300C19292 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		8BD6CB2E2554026700C19292 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,10 @@
 				8BB3D906254D6F0100351B48 /* Assets.xcassets */,
 				8BB3D908254D6F0100351B48 /* LaunchScreen.storyboard */,
 				8BB3D90B254D6F0100351B48 /* Info.plist */,
+				8BD6CB242553F7F700C19292 /* Constants.swift */,
+				8BD6CB292554016300C19292 /* Video.swift */,
+				8BD6CB2E2554026700C19292 /* Model.swift */,
+				8B4F13A7255D95AD0085A879 /* Response.swift */,
 			);
 			path = P011_YouTubeApp;
 			sourceTree = "<group>";
@@ -260,7 +272,11 @@
 			files = (
 				8BB3D902254D6EFF00351B48 /* ViewController.swift in Sources */,
 				8BB3D8FE254D6EFF00351B48 /* AppDelegate.swift in Sources */,
+				8B4F13A8255D95AD0085A879 /* Response.swift in Sources */,
 				8BB3D900254D6EFF00351B48 /* SceneDelegate.swift in Sources */,
+				8BD6CB2F2554026700C19292 /* Model.swift in Sources */,
+				8BD6CB252553F7F700C19292 /* Constants.swift in Sources */,
+				8BD6CB2A2554016300C19292 /* Video.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
